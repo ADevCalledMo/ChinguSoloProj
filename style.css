@@ -37,7 +37,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    background-image: url('img/BG-1.jpg');
     height: 100vh;
 }
 
