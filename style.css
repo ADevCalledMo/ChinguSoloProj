@@ -6,6 +6,8 @@ body {
 .main-nav {
     display: flex;
     list-style: none;
+    align-items: center;
+    justify-content: center;
     font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -21,7 +23,7 @@ li:hover {
     background-color: #625AA7;
   }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
