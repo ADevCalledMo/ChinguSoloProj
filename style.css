@@ -31,3 +31,12 @@ a {
     text-decoration: none;
 }
 
+
+/* COVER */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+    height: 100vh;
+}
