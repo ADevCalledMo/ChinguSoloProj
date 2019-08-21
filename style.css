@@ -6,16 +6,23 @@ body {
 .main-nav {
     display: flex;
     list-style: none;
-    font-size: 0.7em;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     margin: 0;
-    background-color: black;
+    background-color: #848296;
 }
 
 li {
     padding: 20px;
 }
 
+li:hover { 
+    background-color: #625AA7;
+  }
+
 a{
-    color: green;
+    color: white;
     text-decoration: none;
 }
+
