@@ -1,0 +1,21 @@
+body {
+    margin: auto 0;
+}
+
+/* NAV */
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+    background-color: black;
+}
+
+li {
+    padding: 20px;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
