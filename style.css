@@ -12,10 +12,10 @@ body {
     top: 0;
     width: 100%;
     font-size: 1.5em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
     margin: 0;
-    background-color: #848296;
+    background-color: #ffffff;
 }
 
 li {
@@ -27,8 +27,9 @@ li:hover {
   }
 
 a {
-    color: white;
+    color: red; 
     text-decoration: none;
+    text-shadow: 0.5px 0.5px #000000;
 }
 
 
@@ -37,13 +38,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('img/BG-1.jpg');
+    background-image: url('img/BG-3.jpg');
     height: 100vh;
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 8em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color: white;
+    text-shadow: 2px 2px #000000;
 }
