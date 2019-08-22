@@ -29,12 +29,12 @@ li:hover {
 a {
     color: #A4A4A4;
     text-decoration: none;
-    text-shadow: 0.4px 0.4px white;
+    text-shadow: 0.3px 0.3px white;
 }
 
 
 /* COVER */
-#cover {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,10 +42,25 @@ a {
     height: 100vh;
 }
 
+
+
 h1 {
-    font-size: 8em;
+    font-size: 7em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    text-align: center;
     color: white;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 1.3px 1.3px #000000;
+    margin: 0;
+}
+
+h2 {
+    font-size: 5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    text-shadow: 1.3px 1.3px #000000;
+    margin: 0;
+}
 }
