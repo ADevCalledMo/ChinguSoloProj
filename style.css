@@ -12,10 +12,10 @@ body {
     top: 0;
     width: 100%;
     font-size: 1.5em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 400;
+    font-family: 'Lexend Exa', sans-serif;
+    font-weight: 600;
     margin: 0;
-    background-color: #ffffff;
+    background-color: white;
 }
 
 li {
@@ -23,13 +23,13 @@ li {
 }
 
 li:hover { 
-    background-color: #625AA7;
+    background-color:#DBDBDB;
   }
 
 a {
-    color: red; 
+    color: #A4A4A4;
     text-decoration: none;
-    text-shadow: 0.5px 0.5px #000000;
+    text-shadow: 0.4px 0.4px white;
 }
 
 
