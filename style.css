@@ -151,3 +151,36 @@ nav {
     grid-template: 1fr;
 }
 
+/* CONTACT FORM */
+.contact-form {
+    background-image: url(img/bg-3.jpg);
+    height: 70vh;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto auto auto;
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 80px 10px 60px 10px;
+}
+
+.contact h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 1.5px 1.5px black; 
+}
+
+.contact p {
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0px 300px;
+    text-shadow: 1.5px 1.5px black; 
+}
+
+.form-group {
+    
+}
+
