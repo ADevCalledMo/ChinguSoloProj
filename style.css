@@ -152,35 +152,89 @@ nav {
 }
 
 /* CONTACT FORM */
-.contact-form {
+.contact-section {
     background-image: url(img/bg-3.jpg);
-    height: 70vh;
     height: 500px;
     display: grid;
     grid-template-columns: auto;
     grid-auto-rows: auto auto auto;
     grid-gap: 20px;
     justify-content: center;
-    padding: 80px 10px 60px 10px;
+    padding: 60px;
 }
 
-.contact h2 {
+.contact-section h2 {
     text-align: center;
-    padding-top: 20px;
     color: white;
     font-size: 2.5rem;
     text-shadow: 1.5px 1.5px black; 
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
 }
 
-.contact p {
+.contact-section p {
     text-align: center;
     color: white;
-    font-size: 1.1rem;
-    padding: 0px 300px;
-    text-shadow: 1.5px 1.5px black; 
+    text-shadow: 1.5px 1.5px black;
+    border-radius: 5px;
+    padding: 15px 15px;
+    background: rgba(242, 242, 242, 0.2) none repeat scroll 0 0;
 }
 
-.form-group {
+.contact-form {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    height: 100px;
+    padding: 0 100px;
+}
+
+.form-left {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, min-content);
+    grid-gap: 15px;
+}
+
+.form-right {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto auto;
+    grid-gap: 20px; 
+}
+
+.contact-form input {
+    border-radius: 5px;
+    padding: 5px;
+    height: fit-content;
     
+}
+
+.contact-form input::placeholder {
+    color: #000;
+    background: white;
+}
+
+.contact-form textarea {
+    border-radius: 5px;
+    background: background: rgba(242, 242, 242, 0.2);
+    width: 100%;
+    padding: 5px; 
+}
+
+.contact-form textarea::placeholder {
+    color: #000;
+}
+
+.submit-button {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
 }
 
