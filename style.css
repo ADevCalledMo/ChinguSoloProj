@@ -18,8 +18,14 @@ body {
 
 .wrapper {
     display: grid;
-    grid-gap: 20px;
+    grid-gap:0px;
 }
+
+img {
+    width: 100%;
+    height: auto;
+    border: none;
+  }
 
 /* NAVIGATION */
 nav {
@@ -33,6 +39,7 @@ nav {
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(5, 1fr);
+    
 }
 
 .main-nav li {
@@ -56,10 +63,84 @@ nav {
     color:var(--light);
 }
 
-/* HOME */
-.home {
-    display: flex;
-    align: center;
-    justify-content: center;
 
+
+/* HOME */
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(img/bg-1.jpg);
 }
+
+.cover h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin: 10px;
+    color: white;
+    text-shadow: 1.5px 1.5px grey;
+}
+
+.cover h2 {
+    font-size: 3rem;
+    margin: 10px;
+    color: white;
+}
+
+/* About Us */
+.box-container {
+    display: grid;
+    grid-gap: 30px;
+    margin: 30px auto;
+    width: 90%; 
+}
+
+.three-boxes {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.two-boxes {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+    background: var(--primary);
+    text-align: center;
+    padding-bottom: 10px;
+    box-shadow: var(--shadow);
+}
+
+.box p {
+    padding: 0px 5px;
+}
+
+/* Services */
+.services-banner {
+    height: 40vh;
+    margin: 20px 0;
+    background-image: url(img/bg-2.jpg);
+}
+
+.services-banner h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 0.5px 0.5px black; 
+}
+
+.services-banner p {
+    text-align: center;
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.four-boxes {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.one-box {
+    grid-template: 1fr;
+}
+
