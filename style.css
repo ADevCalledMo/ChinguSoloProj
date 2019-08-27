@@ -10,6 +10,7 @@ html {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     color; var(--light);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -31,8 +32,7 @@ img {
 nav {
     background-color: var(--light);
     margin: 0;
-    height: 70px;
-    
+    height: 70px;  
 }
 
 .sticky {
@@ -254,3 +254,48 @@ nav {
     background-color: #fff;
 }
 
+/* FOOTER */
+
+/* Others */
+
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 4px;   
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.red {
+    background-color: red; 
+    color: white;
+}
+
+.gray {
+    background-color: darkgray;
+    color: white; 
+}
+
+.grn-text {
+    color: green;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.gray-text {
+    color: darkgray;
+}
