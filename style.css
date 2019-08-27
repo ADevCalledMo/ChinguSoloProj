@@ -9,7 +9,6 @@
 html {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    color; var(--light);
     scroll-behavior: smooth;
 }
 
@@ -46,8 +45,7 @@ nav {
     padding: 18px 10px 0px 10px
     margin: 10px;
     list-style: none;
-    grid-template-columns: repeat(5, 1fr);
-    
+    grid-template-columns: repeat(5, 1fr);   
 }
 
 .main-nav li {
@@ -121,7 +119,7 @@ nav {
 .box {
     background: var(--light);
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     box-shadow: var(--shadow);
 }
 
@@ -245,7 +243,6 @@ nav {
 
 .contact-form textarea {
     border-radius: 5px;
-    background: background: rgba(242, 242, 242, 0.2);
     width: 100%;
     padding: 5px; 
 }
