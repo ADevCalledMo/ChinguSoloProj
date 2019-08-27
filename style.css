@@ -78,7 +78,7 @@ nav {
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url(img/bg-3.jpg);
+    background-image: url(../img/bg-3.jpg);
 }
 
 .cover h1 {
@@ -141,7 +141,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 40vh;
-    background-image: url(img/bg-1.jpg);
+    background-image: url(../img/bg-1.jpg);
 }
 
 .services-banner h2 {
@@ -172,7 +172,7 @@ nav {
 
 /* CONTACT FORM */
 #contact-section {
-    background-image: url(img/bg-2.jpg);
+    background-image: url(../img/bg-2.jpg);
     height: 600px;
     display: grid;
     grid-template-columns: auto;
