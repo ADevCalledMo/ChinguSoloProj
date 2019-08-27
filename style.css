@@ -99,8 +99,8 @@ nav {
 }
 
 /* About Us */
-.empty-space {
-    height: 100px;
+#about-us {
+    padding-top: 70px;
 }
 
 .box-container {
@@ -134,12 +134,17 @@ nav {
 }
 
 /* Services */
+
+#services {
+    padding-top: 69px;
+}
+
 .services-banner {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40vh;
-    background-image: url(img/bg-3.jpg);
+    background-image: url(img/bg-1.jpg);
 }
 
 .services-banner h2 {
@@ -170,14 +175,14 @@ nav {
 
 /* CONTACT FORM */
 #contact-section {
-    background-image: url(img/bg-1.jpg);
-    height: 500px;
+    background-image: url(img/bg-2.jpg);
+    height: 600px;
     display: grid;
     grid-template-columns: auto;
     grid-auto-rows: auto auto auto;
     grid-gap: 20px;
     justify-content: center;
-    padding: 60px;
+    padding-top: 70px;
 }
 
 #contact-section h2 {
@@ -302,3 +307,39 @@ nav {
 .gray-text {
     color: darkgray;
 }
+
+/*  Media Queries */
+@media only screen and (max-width: 700px) {
+    .two-boxes, 
+    .three-boxes,
+    .four-boxes,
+    .contact-form,
+    #contact-section {
+      grid-template-columns: auto;
+      height: auto;
+    }
+  
+    .header {
+      font-size: 0.5em;
+    }
+  
+    nav {
+      background: transparent;
+    }
+  
+    nav li {
+      margin: 0;
+      height: 36px;
+      width: 100%;
+      padding: 0;
+    }
+  
+  }
+
+  /* Parallax BG */
+  .parallax-background {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
