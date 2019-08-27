@@ -1,15 +1,15 @@
 /*  CSS VARIABLES */
 :root {
-    --primary: #ddd;
-    --dark; #333;
-    --light; #fff;
+    --primary: #5E81C5;
+    --dark: #264D9B;
+    --light: #B5C9F0;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
 html {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    color; var(--dark);
+    color; var(--light);
 }
 
 body {
@@ -31,35 +31,38 @@ img {
 nav {
     background-color: var(--light);
     margin: 0;
+    height: 70px;
+    
 }
 
 .main-nav {
     display: grid;
     grid-gap: 10px;
-    padding: 0;
+    padding: 18px 10px 0px 10px
+    margin: 0;
     list-style: none;
     grid-template-columns: repeat(5, 1fr);
     
 }
 
 .main-nav li {
-    padding: 10px;
+    padding: 0px 10px 0px 10px
 }
 
 .main-nav a {
-    background: var(--primary);
+    background: var(--dark);
     display: block;
     text-decoration: none;
     padding: 0.3rem;
     text-align: center;
-    color: var(--dark);
+    color: var(--light);
     text-transform: uppercase;
     font-size: 1.1rem;
-    box-shadow: var(--shadow);
+    
 }
 
 .main-nav a:hover {
-    background: var(--dark);
+    background: var(--primary);
     color:var(--light);
 }
 
@@ -72,7 +75,7 @@ nav {
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url(img/bg-1.jpg);
+    background-image: url(img/bg-3.jpg);
 }
 
 .cover h1 {
@@ -87,6 +90,7 @@ nav {
     font-size: 3rem;
     margin: 10px;
     color: white;
+    text-shadow: 1.5px 1.5px grey;
 }
 
 /* About Us */
@@ -106,7 +110,7 @@ nav {
 }
 
 .box {
-    background: var(--primary);
+    background: var(--light);
     text-align: center;
     padding-bottom: 10px;
     box-shadow: var(--shadow);
@@ -116,13 +120,17 @@ nav {
     padding: 0px 5px;
 }
 
+.box h3 {
+    color: var(--dark)
+}
+
 /* Services */
 .services-banner {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40vh;
-    background-image: url(img/bg-2.jpg);
+    background-image: url(img/bg-3.jpg);
 }
 
 .services-banner h2 {
@@ -152,8 +160,8 @@ nav {
 }
 
 /* CONTACT FORM */
-.contact-section {
-    background-image: url(img/bg-3.jpg);
+#contact-section {
+    background-image: url(img/bg-1.jpg);
     height: 500px;
     display: grid;
     grid-template-columns: auto;
@@ -163,7 +171,7 @@ nav {
     padding: 60px;
 }
 
-.contact-section h2 {
+#contact-section h2 {
     text-align: center;
     color: white;
     font-size: 2.5rem;
@@ -173,13 +181,15 @@ nav {
     padding: 0px;
 }
 
-.contact-section p {
+#contact-section p {
     text-align: center;
     color: white;
+    font-size: 1.5rem;
     text-shadow: 1.5px 1.5px black;
     border-radius: 5px;
     padding: 15px 15px;
-    background: rgba(242, 242, 242, 0.2) none repeat scroll 0 0;
+    margin: 0;
+    background: rgba(242, 242, 242, 0.3) none repeat scroll 0 0;
 }
 
 .contact-form {
@@ -187,7 +197,7 @@ nav {
     grid-template-columns: auto auto;
     grid-gap: 25px;
     height: 100px;
-    padding: 0 100px;
+    margin: 0px;
 }
 
 .form-left {
