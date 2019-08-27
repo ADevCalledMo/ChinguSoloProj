@@ -35,6 +35,12 @@ nav {
     
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .main-nav {
     display: grid;
     grid-gap: 10px;
