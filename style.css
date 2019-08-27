@@ -182,7 +182,10 @@ nav {
     grid-auto-rows: auto auto auto;
     grid-gap: 20px;
     justify-content: center;
-    padding-top: 70px;
+    align-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 0px;
 }
 
 #contact-section h2 {
