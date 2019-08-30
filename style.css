@@ -42,7 +42,7 @@ nav {
 .main-nav {
     display: grid;
     grid-gap: 10px;
-    padding: 18px 10px 0px 10px;
+    padding: 7px 10px 0px 10px;
     margin: 10px;
     list-style: none;
     grid-template-columns: repeat(5, 1fr);   
@@ -52,6 +52,7 @@ nav {
     padding: 0px 10px 0px 10px
 }
 
+
 .main-nav a {
     background: var(--dark);
     display: block;
@@ -60,8 +61,7 @@ nav {
     text-align: center;
     color: var(--light);
     text-transform: uppercase;
-    font-size: 1.1rem;
-    
+    font-size: 1.1rem; 
 }
 
 .main-nav a:hover {
